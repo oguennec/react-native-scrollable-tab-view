@@ -264,7 +264,7 @@ const ScrollableTabView = React.createClass({
         position: 'absolute',
         left: 0,
         right: 0,
-        [this.props.tabBarPosition === 'overlayTop' ? 'top' : 'bottom']: 0,
+        [this.props.tabBarPosition === 'overlayTop' ? 'top' : 'bottom']: 50,
       };
     }
 
